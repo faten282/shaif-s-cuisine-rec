@@ -1,0 +1,122 @@
+:root{
+    --green-1:#26643b;
+    --green-2:#a2de96;
+    --lightgreen-1:#d6e5d8;
+    --lightgreen-2:#f5fcf4;
+    --black-1:#3b413a;
+    --black-2:#3f3c3c;
+    --black-3:#5b6359;}
+/*page title styels*/
+#page__title{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+}
+.page__title__text{
+
+font-size: 2.2rem;
+color: var(--black-1);
+}
+@media only screen and (min-width: 768px){
+
+#page_title{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    
+}
+.page__title__text{
+    font-size: 3.6rem;
+}
+}
+
+/* our specials mune styles*/
+#ourspecials{
+    padding: 0;
+}
+.ourspecials__title{
+font-size: 1.8rem;
+color: var(--black-1);
+margin-bottom: 2rem;
+
+}
+.ourspecials__wrapeer{
+display: flex;
+gap: 1.5rem;
+flex-direction: column;
+max-width: 400px;
+}
+.ourspecials__item{
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    background: var(--lightgreen-1);
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+.ourspecials__item__img,
+.ourspecials__item__info{
+    flex: 1;
+}
+.ourspecials__item__img{
+    border-radius: 12px;
+    overflow: hidden;
+}
+.ourspecials__item__img img{
+    
+    object-fit:cover ;
+}
+.ourspecials__item__title{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--black-1);
+    line-height: 1.2em;
+}
+.ourspecials__item__price{
+    font-size: 1.8rem;
+    color: var(--green-1);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.ourspecials__item__stras{
+    max-width: max-content;
+}
+
+@media only screen and (min-width: 768px){
+.ourspecials__title{
+font-size: 2.4rem; 
+}
+.ourspecials__wrapeer{
+    flex-direction: row;
+    gap:2rem;
+    max-width: none;
+}
+
+.ourspecials__item{
+    padding: 3rem;
+    gap:2rem;
+}
+.ourspecials__item__title{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.ourspecials__item__price{
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+}
+
+@media only screen and
+ (min-width: 1100px){
+ .ourspecials__item__img{
+    flex: 4;
+ }
+ .ourspecials__item__info{
+    flex: 3;
+ }
+
+
+ }
+
+ /*dis gride in menu*/
+ 
